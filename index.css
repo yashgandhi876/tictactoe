@@ -1,0 +1,117 @@
+body {
+  background: #7f00ff;
+  background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
+  background: linear-gradient(to right, #e100ff, #7f00ff);
+}
+
+.largebox {
+  margin-top: 200px;
+}
+
+.box {
+  cursor: pointer;
+  padding: 0px;
+  border: 2px solid white;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.row {
+  justify-content: center;
+}
+
+.cutt {
+  border-top: none;
+}
+
+.cutb {
+  border-bottom: none;
+}
+
+.cutl {
+  border-left: none;
+}
+
+.cutr {
+  border-right: none;
+}
+
+.winnerteam {
+  position: absolute;
+  top: 0;
+  padding-top: 260px;
+  padding-left: 400px;
+  font-size: 100px;
+  font-family: cursive;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.btttn {
+  font-size: 30px;
+  float: right;
+  margin-right: 200px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  box-shadow: 3px 2px 3px white;
+  margin-top: 150px;
+}
+
+.namebox {
+  margin: 16px 16px;
+  padding: 5px 5px;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.playwith {
+  position: absolute;
+  top: 0;
+  padding-top: 260px;
+  padding-left: 400px;
+  font-size: 100px;
+  font-family: cursive;
+  color: azure;
+  background: #02aab0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00cdac,
+    #02aab0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00cdac,
+    #02aab0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.bbttnn {
+  font-size: 20px;
+  padding: 10px;
+  margin: 90px;
+  border: none;
+  border-radius: 5px;
+}
